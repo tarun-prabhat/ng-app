@@ -1,0 +1,6 @@
+<input type="text" class="form-control" [(ngModel)]="username">
+<br>
+<button class="btn btn-primary" (click)="test()">Test</button>
+<br>
+<button class="btn btn-primary" [disabled] = "empty" (click)="onClickMe()">Click Me!</button>
+<p>{{username}}{{empty}}</p>
